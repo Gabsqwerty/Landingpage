@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: black;
+
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    
+}
+
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header{
+    
+    background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+}
+
+Section{
+    padding: 20px;
+    background-image: url(../Assets/fundo.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    
+}
+
+.formContainer{
+    display: inline-block;
+    max-width: 230px;
+    float: right;
+    background-color: #FFFFFFBB;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.formp{
+    padding: 15px;
+    
+}
+
+#upper{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input,select {
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+select{
+    appearance: none;
+    background-image: url(../Assets/down-arrow.png);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center ;
+
+}
+
+
+.enviar{
+   background-color: black;
+   color: white;
+}
+
+footer{
+    padding: auto;
+}
+.picture{
+    width: 150px;
+    float: left;
+    margin: 15px;
+
+}
+
+#about{
+    background-color: black;
+    height: 180px;
+    text-align: left;background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    
+}
+.aboutp{
+    padding-top: 25px;
+    padding-left: 25px;
+    
+}
+
+.socialmedia{
+    background-color: rgb(223, 224, 214);
+}
+
+.miniicons{
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
